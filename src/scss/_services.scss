@@ -1,0 +1,24 @@
+@import 'variables';
+
+.container-services{
+    padding: 1rem;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 20rem;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: $clr-border;
+    opacity: .5;
+    display: inline-block;
+}

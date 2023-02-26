@@ -1,0 +1,44 @@
+$clr-btn: hsl(133, 18, 59);
+$clr-head-foot: hsl(165, 19, 40);
+$clr-bg:hsl(97, 13, 80, 1);
+$clr-text:hsl(186, 21, 26);
+$clr-border:hsl(201, 20, 23);
+
+/***Variable***/ 
+
+.text-center{
+    text-align: center;
+}
+.btn{
+    padding: .8rem 2rem;
+    border-radius: 10px;
+    border-color: inherit;
+    cursor: pointer;
+    background-color:$clr-btn;
+    &:hover{
+    background-color: hsl(135, 39%, 83%);
+    transition: all ease-in-out .5s;
+    }
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+.mb-1{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.fz-40{
+    font-size: 40px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+
